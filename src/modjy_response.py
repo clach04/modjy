@@ -14,7 +14,7 @@
 # 
 # You may also read a copy of the license at the following web address.
 # 
-# http://www.xhaus.com/modjy/LICENSE.txt
+# http://modjy.xhaus.com/LICENSE.txt
 #
 ###
 
@@ -77,10 +77,10 @@ class start_response_object:
 		self.make_write_object()
 		try:
 			for header_name, header_value in headers_list:
-				header_name = header_name.lower()
-				if hop_by_hop_headers.has_key(header_name):
+				header_name_lower = header_name.lower()
+				if hop_by_hop_headers.has_key(header_name_lower):
 					raise HopByHopHeaderSet("Under WSGI, it is illegal to set hop-by-hop headers, i.e. '%s'" % header_name)
-				if header_name == "content-length":
+				if header_name_lower == "content-length":
 					try:
 						self.set_content_length(int(header_value))
 					except ValueError, v:

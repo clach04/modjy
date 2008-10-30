@@ -14,7 +14,7 @@
 # 
 # You may also read a copy of the license at the following web address.
 # 
-# http://www.xhaus.com/modjy/LICENSE.txt
+# http://modjy.xhaus.com/LICENSE.txt
 #
 ###
 

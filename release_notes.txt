@@ -1,3 +1,9 @@
+2008-10-30: version 0.22.3
+
+ - Changed behaviour where HTTP header names were being tranformed to lower case,
+   which was unnecessary; thanks to Ethan over at 10gen.com for reporting it.
+ - Changed documentation links to reflect new home page: http://modjy.xhaus.com
+
 2008-08-23: version 0.22.2
 
  - Fixed a bug in the handling of the content-length header; thanks to Mike over 

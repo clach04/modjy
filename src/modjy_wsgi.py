@@ -14,7 +14,7 @@
 # 
 # You may also read a copy of the license at the following web address.
 # 
-# http://www.xhaus.com/modjy/LICENSE.txt
+# http://modjy.xhaus.com/LICENSE.txt
 #
 ###
 
@@ -40,7 +40,7 @@ class modjy_wsgi:
 	#	Container-specific constants
 	#
 
-	modjy_version = (0, 22, 2)
+	modjy_version = (0, 22, 3)
 
 	def set_string_envvar(self, dict, name, value, default_value):
 		if value == default_value:
